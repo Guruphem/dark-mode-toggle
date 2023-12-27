@@ -18,8 +18,7 @@ header {
   padding-block: 1.2rem;
 }
 
-h1,
-span {
+h1 {
   color: #ffc727;
   font-size: 1.8rem;
 }
@@ -59,13 +58,17 @@ main {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   margin-block-end: 0.4rem;
 }
 
+span {
+  color: #ffc727;
+}
+
 p {
-  width: 300px;
-  font-size: 1.2rem;
+  width: 400px;
+  font-size: 1.4rem;
 }
 
 .hire-btn {
@@ -77,7 +80,7 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   padding: 0.8rem 1rem;
-  margin-block: 1.8rem;
+  margin-block: 1.8rem 5rem;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -92,7 +95,7 @@ p {
 i {
   color: #000;
   font-size: 2rem;
-  margin-inline-end: 0.8rem;
+  margin-inline-end: 1rem;
 }
 
 .img-section img {
