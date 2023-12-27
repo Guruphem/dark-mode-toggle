@@ -55,9 +55,11 @@ main {
 
 h2 {
   font-size: 1.8rem;
+  margin-block-end: 0.4rem;
 }
 
 p {
+  width: 300px;
   font-size: 1.2rem;
 }
 
@@ -70,7 +72,7 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   padding: 0.8rem 1rem;
-  margin-block: 1.4rem;
+  margin-block: 1.8rem;
 }
 
 i {
