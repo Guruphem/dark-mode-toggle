@@ -59,10 +59,10 @@ h2 {
 
 p {
   font-size: 1.2rem;
-  margin-block: 1.4rem;
 }
 
 .hire-btn {
+  display: inline-block;
   background: #000;
   border-radius: 4px;
   color: #fff;
@@ -70,4 +70,11 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   padding: 0.8rem 1rem;
+  margin-block: 1.4rem;
+}
+
+i {
+  color: #000;
+  font-size: 2rem;
+  margin-inline-end: 0.8rem;
 }
