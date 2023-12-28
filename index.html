@@ -1,70 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dark Mode Toggle</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <h1>MobileTutor</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#" class="active">Home</a>
-          </li>
-          <li>
-            <a href="#">Books</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-        </ul>
+        <h1>MobileTutor</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#">Books</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
 
-        <img src="./img/moon.png" id="icon" alt="moon-icon" />
-      </nav>
+            <img src="./img/moon.png" id="icon" alt="moon-icon" />
+        </nav>
     </header>
 
     <main>
-      <section class="intro">
-        <h2><span>MobileTutor</span> says hello!</h2>
-        <p>Welcome to an all round virtual academic assistance...</p>
+        <section class="intro">
+            <h2><span>MobileTutor</span> says hello!</h2>
+            <p>Welcome to an all round virtual academic assistance...</p>
 
-        <a href="#" class="hire-btn">hire a tutor</a>
+            <a href="#" class="hire-btn">hire a tutor</a>
 
-        <section class="socials">
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <section class="socials">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </section>
         </section>
-      </section>
 
-      <section class="img-section">
-        <img src="./img/Online learning-cuate.png" alt="tutorial-img" />
-      </section>
+        <section class="img-section">
+            <img src="./img/Online learning-cuate.png" alt="tutorial-img" />
+        </section>
     </main>
 
     <script>
-      var icon = document.getElementById("icon");
+        var icon = document.getElementById("icon");
 
-      icon.onclick = function () {
-        document.body.classList.toggle("dark-mode");
-      };
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-mode");
+        };
     </script>
-  </body>
+</body>
+
 </html>
