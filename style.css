@@ -5,8 +5,11 @@
 }
 
 :root {
-  /* --primary-color--: #000;
-  --secondary-color--: #fff; */
+  --primary-color--: #000;
+  --secondary-color--: #fff;
+}
+
+.dark-mode {
   --primary-color--: #fff;
   --secondary-color--: #000;
 }
